@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     marginVertical: 25,
     height: 45,
     justifyContent: "center",
-    borderRadius: 20,
+    borderRadius: 10,
     paddingHorizontal: 20,
   },
   inputText: {

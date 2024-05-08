@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
     marginRight: 8,
     borderRadius: 7,
-    resizeMode: "cover", // Ensure the image covers the entire space while maintaining aspect ratio
+    resizeMode: "cover", 
   },
   indicator: {
     height: 7,

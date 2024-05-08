@@ -21,7 +21,7 @@ interface LayoutProps {
 
 const Frontend: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <SafeAreaView style={[defaultStyles.container, styles.container]}>      
+    <SafeAreaView style={[defaultStyles.container, styles.container]}>
       <View style={styles.navbarContainer}>
         <View style={styles.navbar}>
           <Image
@@ -29,15 +29,6 @@ const Frontend: React.FC<LayoutProps> = ({ children }) => {
             style={styles.image}
           />
           <View style={styles.iconImage}>
-            <TouchableOpacity>
-              <View style={styles.iconContainer}>
-                <SimpleLineIcons
-                  name="question"
-                  size={20}
-                  color="rgba(0,0,0,0.6)"
-                />
-              </View>
-            </TouchableOpacity>
             <TouchableOpacity>
               <View style={styles.iconContainer}>
                 <SimpleLineIcons
@@ -80,8 +71,8 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
   },
   image: {
-    width: 40,
-    height: 40,
+    width: 30,
+    height: 30,
     resizeMode: "contain",
   },
   profilePicture: {
